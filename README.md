@@ -908,15 +908,3 @@ Each integration uses the team's own credentials, supplied through `.env` or a s
 | **Apollo** | Reserved contact source with its own caps | `APOLLO_*` limits | Reserved, no caller yet |
 | **OFAC and UN sanctions lists** | Screening in the earlier product | Public download | Built, not wired into this flow |
 
-### What existed before today
-
-- **The service, not this product.** Meridian's service business, its case study, sales playbooks, customs export files and cloud accounts predate the event, as do its internal tools for sending, email verification and deal tracking. Those tools are a separate Python codebase and are not in this repository. The end-to-end product here was built today.
-- **A design pack** (pitch, flow, trust rules, a diagram sketch and a plan) was written before the 10:15 AM start.
-- **The code in this repository** has a commit history starting at 11:28 IST on 22 November 2026.
-- **AI assistance:** we built with Claude Code. Commits it co-wrote say so.
-- **Open source:** TypeScript (Apache-2.0), tsx, Zod and Vitest (MIT).
-- **Reference data:** UN HS 2022 and partner-area lists. The earlier modules also use UN Comtrade, World Bank WITS, OFAC and UN sanctions lists.
-
-### Repository history
-
-Commit `544a021` (removed from tracking in `17c5731`) and early SQLite side files put business contact names and titles in this public history. Both are now untracked. History is unchanged, as the event rules require.
